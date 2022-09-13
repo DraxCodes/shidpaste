@@ -6,6 +6,9 @@
   <hr/>
 </p>
 
+Latest News: https://ko-fi.com/post/What-is-ShidPaste-F2F4F0NOV
+
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
