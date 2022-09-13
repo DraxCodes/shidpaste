@@ -1,10 +1,10 @@
 # ShidPaste
-<center>
-<img height="280" width="" src="logo.png" />
 
-### ShidPaste is a simple self hosted PasteBin like service. 
-
-</center>
+<p align="center">
+  <img height="280" src="logo.png" />
+  <p align="center">ShidPaste is a simple self hosted PasteBin like service.</p> 
+  <hr/>
+</p>
 
 ## Developing
 
