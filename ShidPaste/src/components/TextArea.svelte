@@ -1,5 +1,5 @@
 <script>
-	import { pasteBody } from '../stores/pasteStore';
+	import { pasteBody } from '../lib/pasteStore';
 
 	export let value = '';
 	export let minRows = 1;

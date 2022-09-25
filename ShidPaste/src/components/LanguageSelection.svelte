@@ -1,5 +1,5 @@
 <script>
-	import { pasteLanguage } from '../stores/pasteStore';
+	import { pasteLanguage } from '../lib/pasteStore';
 
 	let selectedLang = 'markup';
 

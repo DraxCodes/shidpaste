@@ -6,6 +6,10 @@ const config = {
 	kit: {
 		adapter: adapter()
 	},
+	env: {
+		dir: process.cwd(),
+		publicPrefix: 'PUBLIC_'
+	},
 	preprocess: [
 		preprocess({
 			postcss: true
