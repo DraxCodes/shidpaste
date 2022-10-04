@@ -11,14 +11,14 @@
 	const handleTextChange = () => {
 		pasteBody.set(value);
 	};
+
 </script>
+	<div class="container rounded-lg border-4 border-dashed border-gray-200">
+		<pre aria-hidden="true" style="min-height: {minHeight}; max-height: {maxHeight}">{value +
+				'\n'}</pre>
 
-<div class="container rounded-lg border-4 border-dashed border-gray-200">
-	<pre aria-hidden="true" style="min-height: {minHeight}; max-height: {maxHeight}">{value +
-			'\n'}</pre>
-
-	<textarea on:change={handleTextChange} bind:value placeholder="Paste here..." />
-</div>
+		<textarea on:change={handleTextChange} bind:value placeholder="Paste here..." />
+	</div>
 
 <style>
 	.container {

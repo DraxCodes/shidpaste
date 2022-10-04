@@ -4,7 +4,7 @@
 	let selectedLang = 'markup';
 
 	const onLangSelect = () => {
-		pasteLanguage.set(selectedLang);
+		
 	};
 </script>
 
