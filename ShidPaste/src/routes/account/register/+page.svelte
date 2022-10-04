@@ -1,7 +1,4 @@
 <script>
-	import { signUpWithEmailPassword } from '$lib/firebase';
-	import { AuthErrorCodes } from 'firebase/auth';
-	import { goto } from '$app/navigation';
 
 	let email;
 	let password;
@@ -10,18 +7,9 @@
 
 	const handleSubmit = async () => {
 		try {
-			var credentials = await signUpWithEmailPassword(email, password);
-			goto('/account');
+			
 		} catch (error) {
-			if (error.code === AuthErrorCodes.WEAK_PASSWORD) {
-				errorMessage = 'Password must be at-least 6 charcaters in length.';
-			} else if (error.code === AuthErrorCodes.EMAIL_EXISTS) {
-				errorMessage = 'Email is already in use.';
-			} else if (error.code === AuthErrorCodes.INVALID_EMAIL) {
-				errorMessage = 'Please enter a valid email.';
-			} else {
-				errorMessage = error.message;
-			}
+			
 		}
 	};
 </script>
